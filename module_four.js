@@ -11,7 +11,7 @@ const formatString = function (string) {
     console.log(newStr);
   } else {
     newStr = string.slice(0, 40);
-    console.log("больше" + newStr + "...");
+    console.log(newStr + "...");
   }
 };
 
